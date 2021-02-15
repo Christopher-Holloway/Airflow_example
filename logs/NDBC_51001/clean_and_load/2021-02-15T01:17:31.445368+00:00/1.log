@@ -1,0 +1,163 @@
+[2021-02-14 15:17:37,821] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: NDBC_51001.clean_and_load 2021-02-15T01:17:31.445368+00:00 [queued]>
+[2021-02-14 15:17:37,826] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: NDBC_51001.clean_and_load 2021-02-15T01:17:31.445368+00:00 [queued]>
+[2021-02-14 15:17:37,826] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-02-14 15:17:37,826] {taskinstance.py:1043} INFO - Starting attempt 1 of 1
+[2021-02-14 15:17:37,826] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-02-14 15:17:37,831] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): clean_and_load> on 2021-02-15T01:17:31.445368+00:00
+[2021-02-14 15:17:37,833] {standard_task_runner.py:52} INFO - Started process 91570 to run task
+[2021-02-14 15:17:37,840] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'NDBC_51001', 'clean_and_load', '2021-02-15T01:17:31.445368+00:00', '--job-id', '18', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/ndbc_dag.py', '--cfg-path', '/var/folders/y8/ykx6qdr96dldyw_z287s5l580000gn/T/tmpdvahh9yr', '--error-file', '/var/folders/y8/ykx6qdr96dldyw_z287s5l580000gn/T/tmp5wec9r0o']
+[2021-02-14 15:17:37,841] {standard_task_runner.py:77} INFO - Job 18: Subtask clean_and_load
+[2021-02-14 15:17:37,871] {logging_mixin.py:104} INFO - Running <TaskInstance: NDBC_51001.clean_and_load 2021-02-15T01:17:31.445368+00:00 [running]> on host chriss-mbp.lan1
+[2021-02-14 15:17:37,890] {taskinstance.py:1255} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=holloway.christopher.t@gmail.com
+AIRFLOW_CTX_DAG_OWNER=chris
+AIRFLOW_CTX_DAG_ID=NDBC_51001
+AIRFLOW_CTX_TASK_ID=clean_and_load
+AIRFLOW_CTX_EXECUTION_DATE=2021-02-15T01:17:31.445368+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-02-15T01:17:31.445368+00:00
+[2021-02-14 15:17:38,339] {utils.py:141} INFO - NumExpr defaulting to 8 threads.
+[2021-02-14 15:17:38,351] {base.py:65} INFO - Using connection to: id: NDBC_51001. Host: localhost, Port: 5400, Schema: NDBC_51001DB, Login: chrisholloway, Password: None, extra: None
+[2021-02-14 15:17:38,357] {dbapi.py:180} INFO - Running statement: INSERT INTO Detailed_Wave_Data_Table (sample_date, significant_wave_height, swell_height, swell_period, wind_wave_period,
+	 wind_wave_height, wind_wave_period, swell_direction, wind_wave_direction, steepness, average_period) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s);, parameters: (0        2021/2/15/0/40
+1       2021/2/14/23/40
+2       2021/2/14/22/40
+3       2021/2/14/21/40
+4       2021/2/14/20/40
+             ...       
+1070      2021/1/1/4/40
+1071      2021/1/1/3/40
+1072      2021/1/1/2/40
+1073      2021/1/1/1/40
+1074      2021/1/1/0/40
+Name: DATE, Length: 1075, dtype: object, 0       2.9
+1       2.7
+2       3.1
+3       2.7
+4       2.7
+       ... 
+1070    3.9
+1071    4.1
+1072    4.5
+1073    4.4
+1074    3.8
+Name: WVHT, Length: 1075, dtype: float64, 0       2.9
+1       2.6
+2       3.0
+3       2.7
+4       2.6
+       ... 
+1070    3.7
+1071    3.9
+1072    4.3
+1073    4.2
+1074    3.5
+Name: SwH, Length: 1075, dtype: float64, 0       13.8
+1       13.8
+2       13.8
+3       13.8
+4       14.8
+        ... 
+1070    14.8
+1071    16.0
+1072    16.0
+1073    16.0
+1074    13.8
+Name: SwP, Length: 1075, dtype: float64, 0       4.8
+1       4.3
+2       4.3
+3       4.2
+4       3.8
+       ... 
+1070    6.2
+1071    5.0
+1072    5.9
+1073    5.6
+1074    5.9
+Name: WWP, Length: 1075, dtype: float64, 0       0.6
+1       0.4
+2       0.5
+3       0.4
+4       0.4
+       ... 
+1070    1.3
+1071    1.3
+1072    1.1
+1073    1.3
+1074    1.3
+Name: WWH, Length: 1075, dtype: float64, 0       4.8
+1       4.3
+2       4.3
+3       4.2
+4       3.8
+       ... 
+1070    6.2
+1071    5.0
+1072    5.9
+1073    5.6
+1074    5.9
+Name: WWP, Length: 1075, dtype: float64, 0         W
+1         W
+2       WNW
+3       WNW
+4       WNW
+       ... 
+1070    NNW
+1071     NW
+1072     NW
+1073    NNW
+1074     NW
+Name: SwD, Length: 1075, dtype: object, 0        SE
+1       ESE
+2        SE
+3         S
+4       SSE
+       ... 
+1070      E
+1071    ENE
+1072    ENE
+1073      E
+1074      E
+Name: WWD, Length: 1075, dtype: object, 0       SWELL
+1       SWELL
+2       SWELL
+3       SWELL
+4       SWELL
+        ...  
+1070    SWELL
+1071    SWELL
+1072    SWELL
+1073    SWELL
+1074    SWELL
+Name: STEEPNESS, Length: 1075, dtype: object, 0        9.5
+1        9.3
+2       10.0
+3        9.7
+4        9.2
+        ... 
+1070     9.3
+1071     9.7
+1072    10.6
+1073    10.0
+1074     9.2
+Name: APD, Length: 1075, dtype: float64)
+[2021-02-14 15:17:38,367] {taskinstance.py:1455} ERROR - can't adapt type 'Series'
+Traceback (most recent call last):
+  File "/Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1112, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1285, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1315, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/operators/python.py", line 117, in execute
+    return_value = self.execute_callable()
+  File "/Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/operators/python.py", line 128, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/Users/chrisholloway/airflow/dags/ndbc_dag.py", line 52, in clean_load_data
+    pg_hook.run(insert_cmd, parameters=row)
+  File "/Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/hooks/dbapi.py", line 182, in run
+    cur.execute(sql_statement, parameters)
+psycopg2.ProgrammingError: can't adapt type 'Series'
+[2021-02-14 15:17:38,369] {taskinstance.py:1496} INFO - Marking task as FAILED. dag_id=NDBC_51001, task_id=clean_and_load, execution_date=20210215T011731, start_date=20210215T011737, end_date=20210215T011738
+[2021-02-14 15:17:38,403] {local_task_job.py:146} INFO - Task exited with return code 1
