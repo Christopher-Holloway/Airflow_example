@@ -1,0 +1,24 @@
+[2021-02-15 10:38:16,786] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: NDBC_51001.file_check 2021-02-15T01:00:00+00:00 [queued]>
+[2021-02-15 10:38:16,790] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: NDBC_51001.file_check 2021-02-15T01:00:00+00:00 [queued]>
+[2021-02-15 10:38:16,790] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-02-15 10:38:16,790] {taskinstance.py:1043} INFO - Starting attempt 1 of 1
+[2021-02-15 10:38:16,790] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-02-15 10:38:16,796] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): file_check> on 2021-02-15T01:00:00+00:00
+[2021-02-15 10:38:16,798] {standard_task_runner.py:52} INFO - Started process 20472 to run task
+[2021-02-15 10:38:16,806] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'NDBC_51001', 'file_check', '2021-02-15T01:00:00+00:00', '--job-id', '87', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/ndbc_dag.py', '--cfg-path', '/var/folders/y8/ykx6qdr96dldyw_z287s5l580000gn/T/tmp1q5rhp0a', '--error-file', '/var/folders/y8/ykx6qdr96dldyw_z287s5l580000gn/T/tmpe_f8w3hm']
+[2021-02-15 10:38:16,807] {standard_task_runner.py:77} INFO - Job 87: Subtask file_check
+[2021-02-15 10:38:16,840] {logging_mixin.py:104} INFO - Running <TaskInstance: NDBC_51001.file_check 2021-02-15T01:00:00+00:00 [running]> on host chriss-mbp.lan1
+[2021-02-15 10:38:16,865] {taskinstance.py:1255} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=holloway.christopher.t@gmail.com
+AIRFLOW_CTX_DAG_OWNER=chris
+AIRFLOW_CTX_DAG_ID=NDBC_51001
+AIRFLOW_CTX_TASK_ID=file_check
+AIRFLOW_CTX_EXECUTION_DATE=2021-02-15T01:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-02-15T01:00:00+00:00
+[2021-02-15 10:38:17,089] {logging_mixin.py:104} INFO - file exists
+[2021-02-15 10:38:17,089] {python.py:118} INFO - Done. Returned value was: OK
+[2021-02-15 10:38:17,100] {taskinstance.py:1159} INFO - Marking task as SUCCESS. dag_id=NDBC_51001, task_id=file_check, execution_date=20210215T010000, start_date=20210215T203816, end_date=20210215T203817
+[2021-02-15 10:38:17,113] {taskinstance.py:1220} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-02-15 10:38:17,163] {local_task_job.py:146} INFO - Task exited with return code 0

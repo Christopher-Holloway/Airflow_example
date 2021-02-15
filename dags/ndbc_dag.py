@@ -13,7 +13,7 @@ data_path = 'https://www.ndbc.noaa.gov/data/realtime2/51001.spec'
 
 def check_for_file():
 	""" Function to check if the data exists. Sometimes the buoys
-	go offline, and do not report realtime data and no file us uploaded."""
+	go offline, and do not report realtime data therefore no file is uploaded."""
 	
 	request = requests.head(data_path)
 	if request.status_code == 200:
@@ -26,7 +26,7 @@ def clean_load_data():
 	""" Function to Extract the data into a Pandas dataframe, transform and
 	and load into an existing Postgresql database."""
 
-#Connect to database using the conn_id given defined in the Airflow Webserver
+#Connect to database using the conn_id given in the Airflow Webserver
 
 	pg_hook = PostgresHook(postgres_conn_id='NDBC_51001')
 
@@ -34,7 +34,7 @@ def clean_load_data():
 
 	missing_values = ["MM"] 
 
-#Extract the detailed wave summary data into a Pandas dataframe
+#Extract the detailed wave summary data into Pandas dataframe
 
 	df = pd.read_csv(data_path, 
 		sep = '\s+',
@@ -78,16 +78,16 @@ def clean_load_data():
 DEFAULT_ARGS = {
     'owner': 'chris',
     'depends_on_past': False,
-    'schedule_interval': '@hourly',
     'email': ['holloway.christopher.t@gmail.com'],
     'email_on_failure': False,
-    'email_on_retry': False 
+    'email_on_retry': False, 
 }
 
 #Define the dag, and its associated tasks
 
 with DAG(
 	dag_id ='NDBC_51001',
+	schedule_interval="@hourly",
 	default_args = DEFAULT_ARGS,
 	dagrun_timeout = timedelta(hours=1),
 	start_date = days_ago(2)

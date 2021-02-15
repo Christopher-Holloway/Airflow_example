@@ -2785,3 +2785,661 @@ SyntaxError: invalid syntax
 [2021-02-15 09:10:59,324] {logging_mixin.py:104} INFO - [2021-02-15 09:10:59,324] {dag.py:1818} INFO - Sync 1 DAGs
 [2021-02-15 09:10:59,330] {logging_mixin.py:104} INFO - [2021-02-15 09:10:59,330] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
 [2021-02-15 09:10:59,338] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.275 seconds
+[2021-02-15 09:11:54,362] {scheduler_job.py:182} INFO - Started process (PID=14784) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:11:54,362] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 09:11:54,363] {logging_mixin.py:104} INFO - [2021-02-15 09:11:54,362] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:11:54,585] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:11:54,613] {logging_mixin.py:104} INFO - [2021-02-15 09:11:54,613] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:11:54,619] {logging_mixin.py:104} INFO - [2021-02-15 09:11:54,619] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 09:11:54,622] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.261 seconds
+[2021-02-15 09:12:49,919] {scheduler_job.py:182} INFO - Started process (PID=14853) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:12:49,919] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 09:12:49,920] {logging_mixin.py:104} INFO - [2021-02-15 09:12:49,920] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:12:50,135] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:12:50,161] {logging_mixin.py:104} INFO - [2021-02-15 09:12:50,161] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:12:50,167] {logging_mixin.py:104} INFO - [2021-02-15 09:12:50,167] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 09:12:50,171] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.253 seconds
+[2021-02-15 09:13:47,726] {scheduler_job.py:182} INFO - Started process (PID=14933) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:13:47,727] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 09:13:47,727] {logging_mixin.py:104} INFO - [2021-02-15 09:13:47,727] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:13:47,966] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:13:47,992] {logging_mixin.py:104} INFO - [2021-02-15 09:13:47,991] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:13:47,997] {logging_mixin.py:104} INFO - [2021-02-15 09:13:47,997] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 09:13:48,001] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.275 seconds
+[2021-02-15 09:14:44,582] {scheduler_job.py:182} INFO - Started process (PID=14993) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:14:44,582] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 09:14:44,583] {logging_mixin.py:104} INFO - [2021-02-15 09:14:44,583] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:14:44,812] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:14:44,838] {logging_mixin.py:104} INFO - [2021-02-15 09:14:44,837] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:14:44,843] {logging_mixin.py:104} INFO - [2021-02-15 09:14:44,843] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 09:14:44,847] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.265 seconds
+[2021-02-15 09:15:39,046] {scheduler_job.py:182} INFO - Started process (PID=15048) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:15:39,047] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 09:15:39,047] {logging_mixin.py:104} INFO - [2021-02-15 09:15:39,047] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:15:39,267] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:15:39,293] {logging_mixin.py:104} INFO - [2021-02-15 09:15:39,293] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:15:39,299] {logging_mixin.py:104} INFO - [2021-02-15 09:15:39,299] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 09:15:39,303] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.257 seconds
+[2021-02-15 09:16:33,767] {scheduler_job.py:182} INFO - Started process (PID=15108) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:16:33,768] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 09:16:33,768] {logging_mixin.py:104} INFO - [2021-02-15 09:16:33,768] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:16:33,984] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:16:34,010] {logging_mixin.py:104} INFO - [2021-02-15 09:16:34,010] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:16:34,016] {logging_mixin.py:104} INFO - [2021-02-15 09:16:34,016] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 09:16:34,020] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.253 seconds
+[2021-02-15 09:17:29,234] {scheduler_job.py:182} INFO - Started process (PID=15166) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:17:29,234] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 09:17:29,235] {logging_mixin.py:104} INFO - [2021-02-15 09:17:29,235] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:17:29,448] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:17:29,474] {logging_mixin.py:104} INFO - [2021-02-15 09:17:29,473] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:17:29,479] {logging_mixin.py:104} INFO - [2021-02-15 09:17:29,479] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 09:17:29,483] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.250 seconds
+[2021-02-15 09:18:23,869] {scheduler_job.py:182} INFO - Started process (PID=15222) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:18:23,869] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 09:18:23,870] {logging_mixin.py:104} INFO - [2021-02-15 09:18:23,870] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:18:24,083] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:18:24,109] {logging_mixin.py:104} INFO - [2021-02-15 09:18:24,108] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:18:24,115] {logging_mixin.py:104} INFO - [2021-02-15 09:18:24,115] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 09:18:24,119] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.250 seconds
+[2021-02-15 09:19:18,509] {scheduler_job.py:182} INFO - Started process (PID=15278) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:19:18,509] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 09:19:18,510] {logging_mixin.py:104} INFO - [2021-02-15 09:19:18,510] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:19:18,728] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:19:18,753] {logging_mixin.py:104} INFO - [2021-02-15 09:19:18,753] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:19:18,759] {logging_mixin.py:104} INFO - [2021-02-15 09:19:18,759] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 09:19:18,763] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.255 seconds
+[2021-02-15 09:20:14,131] {scheduler_job.py:182} INFO - Started process (PID=15334) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:20:14,131] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 09:20:14,132] {logging_mixin.py:104} INFO - [2021-02-15 09:20:14,132] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:20:14,377] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:20:14,406] {logging_mixin.py:104} INFO - [2021-02-15 09:20:14,405] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:20:14,412] {logging_mixin.py:104} INFO - [2021-02-15 09:20:14,412] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 09:20:14,416] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.286 seconds
+[2021-02-15 09:21:07,859] {scheduler_job.py:182} INFO - Started process (PID=15392) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:21:07,860] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 09:21:07,860] {logging_mixin.py:104} INFO - [2021-02-15 09:21:07,860] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:21:08,073] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:21:08,098] {logging_mixin.py:104} INFO - [2021-02-15 09:21:08,098] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:21:08,104] {logging_mixin.py:104} INFO - [2021-02-15 09:21:08,104] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 09:21:08,108] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.249 seconds
+[2021-02-15 09:21:59,292] {scheduler_job.py:182} INFO - Started process (PID=15447) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:21:59,293] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 09:21:59,293] {logging_mixin.py:104} INFO - [2021-02-15 09:21:59,293] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:21:59,517] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:21:59,545] {logging_mixin.py:104} INFO - [2021-02-15 09:21:59,545] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:21:59,551] {logging_mixin.py:104} INFO - [2021-02-15 09:21:59,551] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 09:21:59,555] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.263 seconds
+[2021-02-15 09:22:53,817] {scheduler_job.py:182} INFO - Started process (PID=15503) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:22:53,818] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 09:22:53,818] {logging_mixin.py:104} INFO - [2021-02-15 09:22:53,818] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:22:54,031] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:22:54,057] {logging_mixin.py:104} INFO - [2021-02-15 09:22:54,057] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:22:54,063] {logging_mixin.py:104} INFO - [2021-02-15 09:22:54,063] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 09:22:54,066] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.250 seconds
+[2021-02-15 09:23:48,291] {scheduler_job.py:182} INFO - Started process (PID=15559) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:23:48,291] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 09:23:48,292] {logging_mixin.py:104} INFO - [2021-02-15 09:23:48,291] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:23:48,505] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:23:48,531] {logging_mixin.py:104} INFO - [2021-02-15 09:23:48,530] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:23:48,536] {logging_mixin.py:104} INFO - [2021-02-15 09:23:48,536] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 09:23:48,540] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.250 seconds
+[2021-02-15 09:24:43,867] {scheduler_job.py:182} INFO - Started process (PID=15618) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:24:43,868] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 09:24:43,868] {logging_mixin.py:104} INFO - [2021-02-15 09:24:43,868] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:24:44,147] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:24:44,174] {logging_mixin.py:104} INFO - [2021-02-15 09:24:44,174] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:24:44,180] {logging_mixin.py:104} INFO - [2021-02-15 09:24:44,180] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 09:24:44,184] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.317 seconds
+[2021-02-15 09:25:38,421] {scheduler_job.py:182} INFO - Started process (PID=15675) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:25:38,421] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 09:25:38,422] {logging_mixin.py:104} INFO - [2021-02-15 09:25:38,422] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:25:38,636] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:25:38,662] {logging_mixin.py:104} INFO - [2021-02-15 09:25:38,662] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:25:38,668] {logging_mixin.py:104} INFO - [2021-02-15 09:25:38,668] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 09:25:38,672] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.251 seconds
+[2021-02-15 09:26:33,105] {scheduler_job.py:182} INFO - Started process (PID=15732) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:26:33,106] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 09:26:33,106] {logging_mixin.py:104} INFO - [2021-02-15 09:26:33,106] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:26:33,338] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:26:33,367] {logging_mixin.py:104} INFO - [2021-02-15 09:26:33,366] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:26:33,374] {logging_mixin.py:104} INFO - [2021-02-15 09:26:33,374] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 09:26:33,378] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.273 seconds
+[2021-02-15 09:27:28,175] {scheduler_job.py:182} INFO - Started process (PID=15789) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:27:28,175] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 09:27:28,176] {logging_mixin.py:104} INFO - [2021-02-15 09:27:28,176] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:27:28,389] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:27:28,415] {logging_mixin.py:104} INFO - [2021-02-15 09:27:28,415] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:27:28,421] {logging_mixin.py:104} INFO - [2021-02-15 09:27:28,421] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 09:27:28,426] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.251 seconds
+[2021-02-15 09:28:22,927] {scheduler_job.py:182} INFO - Started process (PID=15846) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:28:22,928] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 09:28:22,928] {logging_mixin.py:104} INFO - [2021-02-15 09:28:22,928] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:28:23,142] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:28:23,168] {logging_mixin.py:104} INFO - [2021-02-15 09:28:23,168] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:28:23,174] {logging_mixin.py:104} INFO - [2021-02-15 09:28:23,174] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 09:28:23,177] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.251 seconds
+[2021-02-15 09:29:17,522] {scheduler_job.py:182} INFO - Started process (PID=15903) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:29:17,523] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 09:29:17,523] {logging_mixin.py:104} INFO - [2021-02-15 09:29:17,523] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:29:17,738] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:29:17,764] {logging_mixin.py:104} INFO - [2021-02-15 09:29:17,764] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:29:17,770] {logging_mixin.py:104} INFO - [2021-02-15 09:29:17,770] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 09:29:17,774] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.252 seconds
+[2021-02-15 09:30:13,132] {scheduler_job.py:182} INFO - Started process (PID=15960) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:30:13,132] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 09:30:13,133] {logging_mixin.py:104} INFO - [2021-02-15 09:30:13,133] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:30:13,347] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:30:13,372] {logging_mixin.py:104} INFO - [2021-02-15 09:30:13,372] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:30:13,378] {logging_mixin.py:104} INFO - [2021-02-15 09:30:13,378] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 09:30:13,382] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.250 seconds
+[2021-02-15 09:31:09,490] {scheduler_job.py:182} INFO - Started process (PID=16016) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:31:09,491] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 09:31:09,491] {logging_mixin.py:104} INFO - [2021-02-15 09:31:09,491] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:31:09,723] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:31:09,751] {logging_mixin.py:104} INFO - [2021-02-15 09:31:09,751] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:31:09,757] {logging_mixin.py:104} INFO - [2021-02-15 09:31:09,757] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 09:31:09,761] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.271 seconds
+[2021-02-15 09:32:08,140] {scheduler_job.py:182} INFO - Started process (PID=16077) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:32:08,141] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 09:32:08,141] {logging_mixin.py:104} INFO - [2021-02-15 09:32:08,141] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:32:08,369] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:32:08,396] {logging_mixin.py:104} INFO - [2021-02-15 09:32:08,395] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:32:08,403] {logging_mixin.py:104} INFO - [2021-02-15 09:32:08,403] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 09:32:08,407] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.267 seconds
+[2021-02-15 09:33:06,280] {scheduler_job.py:182} INFO - Started process (PID=16140) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:33:06,280] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 09:33:06,281] {logging_mixin.py:104} INFO - [2021-02-15 09:33:06,281] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:33:06,523] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:33:06,549] {logging_mixin.py:104} INFO - [2021-02-15 09:33:06,549] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:33:06,555] {logging_mixin.py:104} INFO - [2021-02-15 09:33:06,555] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 09:33:06,559] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.280 seconds
+[2021-02-15 09:34:01,925] {scheduler_job.py:182} INFO - Started process (PID=16198) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:34:01,925] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 09:34:01,926] {logging_mixin.py:104} INFO - [2021-02-15 09:34:01,926] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:34:02,149] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:34:02,175] {logging_mixin.py:104} INFO - [2021-02-15 09:34:02,174] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:34:02,180] {logging_mixin.py:104} INFO - [2021-02-15 09:34:02,180] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 09:34:02,184] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.260 seconds
+[2021-02-15 09:34:56,788] {scheduler_job.py:182} INFO - Started process (PID=16254) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:34:56,789] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 09:34:56,789] {logging_mixin.py:104} INFO - [2021-02-15 09:34:56,789] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:34:57,003] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:34:57,028] {logging_mixin.py:104} INFO - [2021-02-15 09:34:57,028] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:34:57,034] {logging_mixin.py:104} INFO - [2021-02-15 09:34:57,034] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 09:34:57,038] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.250 seconds
+[2021-02-15 09:35:51,124] {scheduler_job.py:182} INFO - Started process (PID=16310) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:35:51,124] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 09:35:51,124] {logging_mixin.py:104} INFO - [2021-02-15 09:35:51,124] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:35:51,347] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:35:51,375] {logging_mixin.py:104} INFO - [2021-02-15 09:35:51,374] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:35:51,381] {logging_mixin.py:104} INFO - [2021-02-15 09:35:51,381] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 09:35:51,385] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.262 seconds
+[2021-02-15 09:36:46,363] {scheduler_job.py:182} INFO - Started process (PID=16367) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:36:46,364] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 09:36:46,364] {logging_mixin.py:104} INFO - [2021-02-15 09:36:46,364] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:36:46,585] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:36:46,611] {logging_mixin.py:104} INFO - [2021-02-15 09:36:46,611] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:36:46,617] {logging_mixin.py:104} INFO - [2021-02-15 09:36:46,617] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 09:36:46,621] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.258 seconds
+[2021-02-15 09:37:40,550] {scheduler_job.py:182} INFO - Started process (PID=16424) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:37:40,551] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 09:37:40,551] {logging_mixin.py:104} INFO - [2021-02-15 09:37:40,551] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:37:40,768] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:37:40,795] {logging_mixin.py:104} INFO - [2021-02-15 09:37:40,795] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:37:40,801] {logging_mixin.py:104} INFO - [2021-02-15 09:37:40,801] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 09:37:40,805] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.255 seconds
+[2021-02-15 09:38:35,311] {scheduler_job.py:182} INFO - Started process (PID=16480) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:38:35,312] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 09:38:35,312] {logging_mixin.py:104} INFO - [2021-02-15 09:38:35,312] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:38:35,530] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:38:35,558] {logging_mixin.py:104} INFO - [2021-02-15 09:38:35,558] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:38:35,564] {logging_mixin.py:104} INFO - [2021-02-15 09:38:35,563] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 09:38:35,568] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.257 seconds
+[2021-02-15 09:39:31,062] {scheduler_job.py:182} INFO - Started process (PID=16546) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:39:31,062] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 09:39:31,063] {logging_mixin.py:104} INFO - [2021-02-15 09:39:31,063] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:39:31,336] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:39:31,362] {logging_mixin.py:104} INFO - [2021-02-15 09:39:31,362] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:39:31,368] {logging_mixin.py:104} INFO - [2021-02-15 09:39:31,368] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 09:39:31,372] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.310 seconds
+[2021-02-15 09:40:24,849] {scheduler_job.py:182} INFO - Started process (PID=16603) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:40:24,849] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 09:40:24,850] {logging_mixin.py:104} INFO - [2021-02-15 09:40:24,849] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:40:25,064] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:40:25,091] {logging_mixin.py:104} INFO - [2021-02-15 09:40:25,090] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:40:25,097] {logging_mixin.py:104} INFO - [2021-02-15 09:40:25,096] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 09:40:25,100] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.252 seconds
+[2021-02-15 09:41:14,986] {scheduler_job.py:182} INFO - Started process (PID=16663) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:41:14,986] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 09:41:14,987] {logging_mixin.py:104} INFO - [2021-02-15 09:41:14,987] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:41:15,209] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:41:15,235] {logging_mixin.py:104} INFO - [2021-02-15 09:41:15,234] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:41:15,241] {logging_mixin.py:104} INFO - [2021-02-15 09:41:15,240] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 09:41:15,244] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.259 seconds
+[2021-02-15 09:42:08,311] {scheduler_job.py:182} INFO - Started process (PID=16717) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:42:08,312] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 09:42:08,312] {logging_mixin.py:104} INFO - [2021-02-15 09:42:08,312] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:42:08,569] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:42:08,598] {logging_mixin.py:104} INFO - [2021-02-15 09:42:08,598] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:42:08,607] {logging_mixin.py:104} INFO - [2021-02-15 09:42:08,607] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 09:42:08,611] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.301 seconds
+[2021-02-15 09:43:10,572] {scheduler_job.py:182} INFO - Started process (PID=16784) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:43:10,573] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 09:43:10,573] {logging_mixin.py:104} INFO - [2021-02-15 09:43:10,573] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:43:10,787] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:43:10,812] {logging_mixin.py:104} INFO - [2021-02-15 09:43:10,812] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:43:10,818] {logging_mixin.py:104} INFO - [2021-02-15 09:43:10,818] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 09:43:10,822] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.250 seconds
+[2021-02-15 09:44:08,497] {scheduler_job.py:182} INFO - Started process (PID=16845) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:44:08,497] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 09:44:08,498] {logging_mixin.py:104} INFO - [2021-02-15 09:44:08,498] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:44:08,727] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:44:08,754] {logging_mixin.py:104} INFO - [2021-02-15 09:44:08,754] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:44:08,761] {logging_mixin.py:104} INFO - [2021-02-15 09:44:08,761] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 09:44:08,766] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.269 seconds
+[2021-02-15 09:45:04,141] {scheduler_job.py:182} INFO - Started process (PID=16904) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:45:04,141] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 09:45:04,142] {logging_mixin.py:104} INFO - [2021-02-15 09:45:04,142] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:45:04,353] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:45:04,379] {logging_mixin.py:104} INFO - [2021-02-15 09:45:04,379] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:45:04,385] {logging_mixin.py:104} INFO - [2021-02-15 09:45:04,385] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 09:45:04,389] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.249 seconds
+[2021-02-15 09:45:57,770] {scheduler_job.py:182} INFO - Started process (PID=16960) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:45:57,771] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 09:45:57,771] {logging_mixin.py:104} INFO - [2021-02-15 09:45:57,771] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:45:57,990] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:45:58,016] {logging_mixin.py:104} INFO - [2021-02-15 09:45:58,016] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:45:58,022] {logging_mixin.py:104} INFO - [2021-02-15 09:45:58,021] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 09:45:58,025] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.256 seconds
+[2021-02-15 09:46:48,569] {scheduler_job.py:182} INFO - Started process (PID=17016) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:46:48,569] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 09:46:48,570] {logging_mixin.py:104} INFO - [2021-02-15 09:46:48,570] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:46:48,810] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:46:48,840] {logging_mixin.py:104} INFO - [2021-02-15 09:46:48,839] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:46:48,846] {logging_mixin.py:104} INFO - [2021-02-15 09:46:48,845] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 09:46:48,850] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.281 seconds
+[2021-02-15 09:47:43,498] {scheduler_job.py:182} INFO - Started process (PID=17071) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:47:43,498] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 09:47:43,499] {logging_mixin.py:104} INFO - [2021-02-15 09:47:43,499] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:47:43,746] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:47:43,772] {logging_mixin.py:104} INFO - [2021-02-15 09:47:43,772] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:47:43,779] {logging_mixin.py:104} INFO - [2021-02-15 09:47:43,779] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 09:47:43,783] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.286 seconds
+[2021-02-15 09:48:39,940] {scheduler_job.py:182} INFO - Started process (PID=17150) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:48:39,940] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 09:48:39,941] {logging_mixin.py:104} INFO - [2021-02-15 09:48:39,941] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:48:40,167] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:48:40,194] {logging_mixin.py:104} INFO - [2021-02-15 09:48:40,194] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:48:40,200] {logging_mixin.py:104} INFO - [2021-02-15 09:48:40,200] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 09:48:40,204] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.264 seconds
+[2021-02-15 09:49:49,257] {scheduler_job.py:182} INFO - Started process (PID=17259) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:49:49,258] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 09:49:49,258] {logging_mixin.py:104} INFO - [2021-02-15 09:49:49,258] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:49:49,627] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:49:49,660] {logging_mixin.py:104} INFO - [2021-02-15 09:49:49,659] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:49:49,667] {logging_mixin.py:104} INFO - [2021-02-15 09:49:49,667] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 09:49:49,671] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.415 seconds
+[2021-02-15 09:50:45,007] {scheduler_job.py:182} INFO - Started process (PID=17319) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:50:45,007] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 09:50:45,007] {logging_mixin.py:104} INFO - [2021-02-15 09:50:45,007] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:50:45,221] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:50:45,249] {logging_mixin.py:104} INFO - [2021-02-15 09:50:45,249] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:50:45,255] {logging_mixin.py:104} INFO - [2021-02-15 09:50:45,255] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 09:50:45,259] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.253 seconds
+[2021-02-15 09:51:42,165] {scheduler_job.py:182} INFO - Started process (PID=17385) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:51:42,165] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 09:51:42,166] {logging_mixin.py:104} INFO - [2021-02-15 09:51:42,166] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:51:42,378] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:51:42,404] {logging_mixin.py:104} INFO - [2021-02-15 09:51:42,403] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:51:42,409] {logging_mixin.py:104} INFO - [2021-02-15 09:51:42,409] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 09:51:42,413] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.248 seconds
+[2021-02-15 09:52:38,963] {scheduler_job.py:182} INFO - Started process (PID=17445) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:52:38,964] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 09:52:38,964] {logging_mixin.py:104} INFO - [2021-02-15 09:52:38,964] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:52:39,178] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:52:39,204] {logging_mixin.py:104} INFO - [2021-02-15 09:52:39,204] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:52:39,210] {logging_mixin.py:104} INFO - [2021-02-15 09:52:39,210] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 09:52:39,214] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.251 seconds
+[2021-02-15 09:53:33,483] {scheduler_job.py:182} INFO - Started process (PID=17501) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:53:33,483] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 09:53:33,483] {logging_mixin.py:104} INFO - [2021-02-15 09:53:33,483] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:53:33,700] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:53:33,726] {logging_mixin.py:104} INFO - [2021-02-15 09:53:33,726] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:53:33,732] {logging_mixin.py:104} INFO - [2021-02-15 09:53:33,732] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 09:53:33,736] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.254 seconds
+[2021-02-15 09:54:27,895] {scheduler_job.py:182} INFO - Started process (PID=17569) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:54:27,896] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 09:54:27,896] {logging_mixin.py:104} INFO - [2021-02-15 09:54:27,896] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:54:28,124] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:54:28,150] {logging_mixin.py:104} INFO - [2021-02-15 09:54:28,150] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:54:28,156] {logging_mixin.py:104} INFO - [2021-02-15 09:54:28,156] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 09:54:28,160] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.265 seconds
+[2021-02-15 09:55:23,224] {scheduler_job.py:182} INFO - Started process (PID=17624) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:55:23,224] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 09:55:23,224] {logging_mixin.py:104} INFO - [2021-02-15 09:55:23,224] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:55:23,440] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:55:23,466] {logging_mixin.py:104} INFO - [2021-02-15 09:55:23,466] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:55:23,473] {logging_mixin.py:104} INFO - [2021-02-15 09:55:23,472] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 09:55:23,476] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.253 seconds
+[2021-02-15 09:56:17,694] {scheduler_job.py:182} INFO - Started process (PID=17683) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:56:17,695] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 09:56:17,695] {logging_mixin.py:104} INFO - [2021-02-15 09:56:17,695] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:56:17,912] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:56:17,937] {logging_mixin.py:104} INFO - [2021-02-15 09:56:17,937] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:56:17,942] {logging_mixin.py:104} INFO - [2021-02-15 09:56:17,942] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 09:56:17,946] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.252 seconds
+[2021-02-15 09:57:12,161] {scheduler_job.py:182} INFO - Started process (PID=17740) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:57:12,161] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 09:57:12,162] {logging_mixin.py:104} INFO - [2021-02-15 09:57:12,162] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:57:12,378] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:57:12,405] {logging_mixin.py:104} INFO - [2021-02-15 09:57:12,405] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:57:12,410] {logging_mixin.py:104} INFO - [2021-02-15 09:57:12,410] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 09:57:12,414] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.254 seconds
+[2021-02-15 09:58:07,216] {scheduler_job.py:182} INFO - Started process (PID=17797) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:58:07,217] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 09:58:07,217] {logging_mixin.py:104} INFO - [2021-02-15 09:58:07,217] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:58:07,444] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:58:07,471] {logging_mixin.py:104} INFO - [2021-02-15 09:58:07,471] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:58:07,477] {logging_mixin.py:104} INFO - [2021-02-15 09:58:07,477] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 09:58:07,480] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.265 seconds
+[2021-02-15 09:59:02,009] {scheduler_job.py:182} INFO - Started process (PID=17853) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:59:02,010] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 09:59:02,010] {logging_mixin.py:104} INFO - [2021-02-15 09:59:02,010] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:59:02,225] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:59:02,251] {logging_mixin.py:104} INFO - [2021-02-15 09:59:02,250] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:59:02,257] {logging_mixin.py:104} INFO - [2021-02-15 09:59:02,256] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 09:59:02,260] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.252 seconds
+[2021-02-15 09:59:56,548] {scheduler_job.py:182} INFO - Started process (PID=17910) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:59:56,549] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 09:59:56,549] {logging_mixin.py:104} INFO - [2021-02-15 09:59:56,549] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:59:56,759] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 09:59:56,785] {logging_mixin.py:104} INFO - [2021-02-15 09:59:56,785] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:59:56,791] {logging_mixin.py:104} INFO - [2021-02-15 09:59:56,791] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 09:59:56,794] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.246 seconds
+[2021-02-15 10:00:51,841] {scheduler_job.py:182} INFO - Started process (PID=17966) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:00:51,841] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 10:00:51,841] {logging_mixin.py:104} INFO - [2021-02-15 10:00:51,841] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:00:52,056] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:00:52,082] {logging_mixin.py:104} INFO - [2021-02-15 10:00:52,082] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 10:00:52,088] {logging_mixin.py:104} INFO - [2021-02-15 10:00:52,088] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 10:00:52,092] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.252 seconds
+[2021-02-15 10:01:45,940] {scheduler_job.py:182} INFO - Started process (PID=18025) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:01:45,941] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 10:01:45,941] {logging_mixin.py:104} INFO - [2021-02-15 10:01:45,941] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:01:46,163] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:01:46,189] {logging_mixin.py:104} INFO - [2021-02-15 10:01:46,189] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 10:01:46,195] {logging_mixin.py:104} INFO - [2021-02-15 10:01:46,195] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 10:01:46,198] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.259 seconds
+[2021-02-15 10:02:40,771] {scheduler_job.py:182} INFO - Started process (PID=18082) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:02:40,771] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 10:02:40,772] {logging_mixin.py:104} INFO - [2021-02-15 10:02:40,772] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:02:40,995] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:02:41,023] {logging_mixin.py:104} INFO - [2021-02-15 10:02:41,023] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 10:02:41,029] {logging_mixin.py:104} INFO - [2021-02-15 10:02:41,029] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 10:02:41,033] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.262 seconds
+[2021-02-15 10:03:36,121] {scheduler_job.py:182} INFO - Started process (PID=18140) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:03:36,122] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 10:03:36,122] {logging_mixin.py:104} INFO - [2021-02-15 10:03:36,122] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:03:36,332] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:03:36,357] {logging_mixin.py:104} INFO - [2021-02-15 10:03:36,357] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 10:03:36,363] {logging_mixin.py:104} INFO - [2021-02-15 10:03:36,363] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 10:03:36,367] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.246 seconds
+[2021-02-15 10:04:30,703] {scheduler_job.py:182} INFO - Started process (PID=18196) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:04:30,703] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 10:04:30,703] {logging_mixin.py:104} INFO - [2021-02-15 10:04:30,703] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:04:30,916] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:04:30,942] {logging_mixin.py:104} INFO - [2021-02-15 10:04:30,941] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 10:04:30,948] {logging_mixin.py:104} INFO - [2021-02-15 10:04:30,947] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 10:04:30,951] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.249 seconds
+[2021-02-15 10:05:25,248] {scheduler_job.py:182} INFO - Started process (PID=18254) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:05:25,249] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 10:05:25,249] {logging_mixin.py:104} INFO - [2021-02-15 10:05:25,249] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:05:25,470] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:05:25,497] {logging_mixin.py:104} INFO - [2021-02-15 10:05:25,497] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 10:05:25,503] {logging_mixin.py:104} INFO - [2021-02-15 10:05:25,503] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 10:05:25,507] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.260 seconds
+[2021-02-15 10:06:20,622] {scheduler_job.py:182} INFO - Started process (PID=18319) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:06:20,623] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 10:06:20,623] {logging_mixin.py:104} INFO - [2021-02-15 10:06:20,623] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:06:20,855] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:06:20,881] {logging_mixin.py:104} INFO - [2021-02-15 10:06:20,881] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 10:06:20,887] {logging_mixin.py:104} INFO - [2021-02-15 10:06:20,887] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 10:06:20,891] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.269 seconds
+[2021-02-15 10:07:15,058] {scheduler_job.py:182} INFO - Started process (PID=18373) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:07:15,059] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 10:07:15,059] {logging_mixin.py:104} INFO - [2021-02-15 10:07:15,059] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:07:15,270] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:07:15,296] {logging_mixin.py:104} INFO - [2021-02-15 10:07:15,295] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 10:07:15,301] {logging_mixin.py:104} INFO - [2021-02-15 10:07:15,301] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 10:07:15,305] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.247 seconds
+[2021-02-15 10:08:08,776] {scheduler_job.py:182} INFO - Started process (PID=18429) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:08:08,776] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 10:08:08,777] {logging_mixin.py:104} INFO - [2021-02-15 10:08:08,777] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:08:08,988] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:08:09,014] {logging_mixin.py:104} INFO - [2021-02-15 10:08:09,014] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 10:08:09,020] {logging_mixin.py:104} INFO - [2021-02-15 10:08:09,020] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 10:08:09,024] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.249 seconds
+[2021-02-15 10:09:01,367] {scheduler_job.py:182} INFO - Started process (PID=18485) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:09:01,367] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 10:09:01,368] {logging_mixin.py:104} INFO - [2021-02-15 10:09:01,367] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:09:01,594] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:09:01,620] {logging_mixin.py:104} INFO - [2021-02-15 10:09:01,620] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 10:09:01,626] {logging_mixin.py:104} INFO - [2021-02-15 10:09:01,626] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 10:09:01,630] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.264 seconds
+[2021-02-15 10:09:54,088] {scheduler_job.py:182} INFO - Started process (PID=18543) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:09:54,089] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 10:09:54,089] {logging_mixin.py:104} INFO - [2021-02-15 10:09:54,089] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:09:54,304] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:09:54,329] {logging_mixin.py:104} INFO - [2021-02-15 10:09:54,329] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 10:09:54,335] {logging_mixin.py:104} INFO - [2021-02-15 10:09:54,335] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 10:09:54,339] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.251 seconds
+[2021-02-15 10:10:48,563] {scheduler_job.py:182} INFO - Started process (PID=18603) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:10:48,564] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 10:10:48,564] {logging_mixin.py:104} INFO - [2021-02-15 10:10:48,564] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:10:48,775] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:10:48,803] {logging_mixin.py:104} INFO - [2021-02-15 10:10:48,803] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 10:10:48,809] {logging_mixin.py:104} INFO - [2021-02-15 10:10:48,809] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 10:10:48,812] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.250 seconds
+[2021-02-15 10:11:42,944] {scheduler_job.py:182} INFO - Started process (PID=18662) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:11:42,945] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 10:11:42,945] {logging_mixin.py:104} INFO - [2021-02-15 10:11:42,945] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:11:43,156] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:11:43,182] {logging_mixin.py:104} INFO - [2021-02-15 10:11:43,182] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 10:11:43,188] {logging_mixin.py:104} INFO - [2021-02-15 10:11:43,187] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 10:11:43,191] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.248 seconds
+[2021-02-15 10:12:37,788] {scheduler_job.py:182} INFO - Started process (PID=18719) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:12:37,788] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 10:12:37,789] {logging_mixin.py:104} INFO - [2021-02-15 10:12:37,789] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:12:37,997] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:12:38,022] {logging_mixin.py:104} INFO - [2021-02-15 10:12:38,022] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 10:12:38,028] {logging_mixin.py:104} INFO - [2021-02-15 10:12:38,028] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 10:12:38,031] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.244 seconds
+[2021-02-15 10:13:32,287] {scheduler_job.py:182} INFO - Started process (PID=18774) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:13:32,287] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 10:13:32,288] {logging_mixin.py:104} INFO - [2021-02-15 10:13:32,288] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:13:32,510] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:13:32,536] {logging_mixin.py:104} INFO - [2021-02-15 10:13:32,536] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 10:13:32,542] {logging_mixin.py:104} INFO - [2021-02-15 10:13:32,542] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 10:13:32,546] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.260 seconds
+[2021-02-15 10:14:26,655] {scheduler_job.py:182} INFO - Started process (PID=18831) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:14:26,656] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 10:14:26,656] {logging_mixin.py:104} INFO - [2021-02-15 10:14:26,656] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:14:26,929] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:14:26,958] {logging_mixin.py:104} INFO - [2021-02-15 10:14:26,958] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 10:14:26,964] {logging_mixin.py:104} INFO - [2021-02-15 10:14:26,964] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 10:14:26,968] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.313 seconds
+[2021-02-15 10:15:21,895] {scheduler_job.py:182} INFO - Started process (PID=18888) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:15:21,896] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 10:15:21,896] {logging_mixin.py:104} INFO - [2021-02-15 10:15:21,896] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:15:22,111] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:15:22,137] {logging_mixin.py:104} INFO - [2021-02-15 10:15:22,136] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 10:15:22,142] {logging_mixin.py:104} INFO - [2021-02-15 10:15:22,142] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 10:15:22,146] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.252 seconds
+[2021-02-15 10:16:19,955] {scheduler_job.py:182} INFO - Started process (PID=18956) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:16:19,956] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 10:16:19,956] {logging_mixin.py:104} INFO - [2021-02-15 10:16:19,956] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:16:20,203] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:16:20,229] {logging_mixin.py:104} INFO - [2021-02-15 10:16:20,228] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 10:16:20,234] {logging_mixin.py:104} INFO - [2021-02-15 10:16:20,234] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 10:16:20,239] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.284 seconds
+[2021-02-15 10:17:17,245] {scheduler_job.py:182} INFO - Started process (PID=19015) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:17:17,246] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 10:17:17,246] {logging_mixin.py:104} INFO - [2021-02-15 10:17:17,246] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:17:17,495] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:17:17,530] {logging_mixin.py:104} INFO - [2021-02-15 10:17:17,530] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 10:17:17,539] {logging_mixin.py:104} INFO - [2021-02-15 10:17:17,538] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 10:17:17,542] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.298 seconds
+[2021-02-15 10:18:14,219] {scheduler_job.py:182} INFO - Started process (PID=19074) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:18:14,219] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 10:18:14,220] {logging_mixin.py:104} INFO - [2021-02-15 10:18:14,220] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:18:14,438] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:18:14,464] {logging_mixin.py:104} INFO - [2021-02-15 10:18:14,464] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 10:18:14,470] {logging_mixin.py:104} INFO - [2021-02-15 10:18:14,470] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 10:18:14,474] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.255 seconds
+[2021-02-15 10:19:11,083] {scheduler_job.py:182} INFO - Started process (PID=19137) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:19:11,083] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 10:19:11,084] {logging_mixin.py:104} INFO - [2021-02-15 10:19:11,084] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:19:11,342] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:19:11,375] {logging_mixin.py:104} INFO - [2021-02-15 10:19:11,375] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 10:19:11,383] {logging_mixin.py:104} INFO - [2021-02-15 10:19:11,383] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 10:19:11,387] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.305 seconds
+[2021-02-15 10:20:07,015] {scheduler_job.py:182} INFO - Started process (PID=19195) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:20:07,015] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 10:20:07,015] {logging_mixin.py:104} INFO - [2021-02-15 10:20:07,015] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:20:07,231] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:20:07,256] {logging_mixin.py:104} INFO - [2021-02-15 10:20:07,256] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 10:20:07,262] {logging_mixin.py:104} INFO - [2021-02-15 10:20:07,262] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 10:20:07,266] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.251 seconds
+[2021-02-15 10:21:03,817] {scheduler_job.py:182} INFO - Started process (PID=19261) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:21:03,817] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 10:21:03,818] {logging_mixin.py:104} INFO - [2021-02-15 10:21:03,818] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:21:04,035] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:21:04,064] {logging_mixin.py:104} INFO - [2021-02-15 10:21:04,064] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 10:21:04,070] {logging_mixin.py:104} INFO - [2021-02-15 10:21:04,070] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 10:21:04,073] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.257 seconds
+[2021-02-15 10:22:00,699] {scheduler_job.py:182} INFO - Started process (PID=19325) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:22:00,699] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 10:22:00,700] {logging_mixin.py:104} INFO - [2021-02-15 10:22:00,699] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:22:00,935] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:22:00,964] {logging_mixin.py:104} INFO - [2021-02-15 10:22:00,964] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 10:22:00,970] {logging_mixin.py:104} INFO - [2021-02-15 10:22:00,970] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 10:22:00,974] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.276 seconds
+[2021-02-15 10:22:54,287] {scheduler_job.py:182} INFO - Started process (PID=19381) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:22:54,287] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 10:22:54,288] {logging_mixin.py:104} INFO - [2021-02-15 10:22:54,288] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:22:54,523] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:22:54,553] {logging_mixin.py:104} INFO - [2021-02-15 10:22:54,553] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 10:22:54,560] {logging_mixin.py:104} INFO - [2021-02-15 10:22:54,560] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 10:22:54,569] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.282 seconds
+[2021-02-15 10:23:50,882] {scheduler_job.py:182} INFO - Started process (PID=19456) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:23:50,882] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 10:23:50,883] {logging_mixin.py:104} INFO - [2021-02-15 10:23:50,883] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:23:51,134] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:23:51,162] {logging_mixin.py:104} INFO - [2021-02-15 10:23:51,162] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 10:23:51,168] {logging_mixin.py:104} INFO - [2021-02-15 10:23:51,168] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 10:23:51,172] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.291 seconds
+[2021-02-15 10:24:47,533] {scheduler_job.py:182} INFO - Started process (PID=19518) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:24:47,533] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 10:24:47,534] {logging_mixin.py:104} INFO - [2021-02-15 10:24:47,534] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:24:47,817] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:24:47,845] {logging_mixin.py:104} INFO - [2021-02-15 10:24:47,844] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 10:24:47,851] {logging_mixin.py:104} INFO - [2021-02-15 10:24:47,851] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 10:24:47,855] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.322 seconds
+[2021-02-15 10:25:41,594] {scheduler_job.py:182} INFO - Started process (PID=19577) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:25:41,594] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 10:25:41,594] {logging_mixin.py:104} INFO - [2021-02-15 10:25:41,594] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:25:41,819] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:25:41,846] {logging_mixin.py:104} INFO - [2021-02-15 10:25:41,846] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 10:25:41,852] {logging_mixin.py:104} INFO - [2021-02-15 10:25:41,852] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 10:25:41,856] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.262 seconds
+[2021-02-15 10:26:37,415] {scheduler_job.py:182} INFO - Started process (PID=19641) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:26:37,415] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 10:26:37,416] {logging_mixin.py:104} INFO - [2021-02-15 10:26:37,416] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:26:37,628] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:26:37,654] {logging_mixin.py:104} INFO - [2021-02-15 10:26:37,654] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 10:26:37,660] {logging_mixin.py:104} INFO - [2021-02-15 10:26:37,660] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 10:26:37,664] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.250 seconds
+[2021-02-15 10:27:31,371] {scheduler_job.py:182} INFO - Started process (PID=19699) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:27:31,372] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 10:27:31,372] {logging_mixin.py:104} INFO - [2021-02-15 10:27:31,372] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:27:31,597] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:27:31,623] {logging_mixin.py:104} INFO - [2021-02-15 10:27:31,623] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 10:27:31,629] {logging_mixin.py:104} INFO - [2021-02-15 10:27:31,629] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 10:27:31,633] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.262 seconds
+[2021-02-15 10:28:26,205] {scheduler_job.py:182} INFO - Started process (PID=19759) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:28:26,206] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 10:28:26,206] {logging_mixin.py:104} INFO - [2021-02-15 10:28:26,206] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:28:26,427] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:28:26,454] {logging_mixin.py:104} INFO - [2021-02-15 10:28:26,453] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 10:28:26,461] {logging_mixin.py:104} INFO - [2021-02-15 10:28:26,461] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 10:28:26,464] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.259 seconds
+[2021-02-15 10:29:29,108] {scheduler_job.py:182} INFO - Started process (PID=19825) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:29:29,108] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 10:29:29,109] {logging_mixin.py:104} INFO - [2021-02-15 10:29:29,108] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:29:29,358] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:29:29,388] {logging_mixin.py:104} INFO - [2021-02-15 10:29:29,388] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 10:29:29,395] {logging_mixin.py:104} INFO - [2021-02-15 10:29:29,395] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 10:29:29,399] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.292 seconds
+[2021-02-15 10:30:20,256] {scheduler_job.py:182} INFO - Started process (PID=19881) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:30:20,257] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 10:30:20,257] {logging_mixin.py:104} INFO - [2021-02-15 10:30:20,257] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:30:20,467] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:30:20,493] {logging_mixin.py:104} INFO - [2021-02-15 10:30:20,493] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 10:30:20,499] {logging_mixin.py:104} INFO - [2021-02-15 10:30:20,498] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 10:30:20,502] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.246 seconds
+[2021-02-15 10:31:16,065] {scheduler_job.py:182} INFO - Started process (PID=19936) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:31:16,066] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 10:31:16,066] {logging_mixin.py:104} INFO - [2021-02-15 10:31:16,066] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:31:16,312] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:31:16,339] {logging_mixin.py:104} INFO - [2021-02-15 10:31:16,339] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 10:31:16,345] {logging_mixin.py:104} INFO - [2021-02-15 10:31:16,345] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 10:31:16,356] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.291 seconds
+[2021-02-15 10:32:11,373] {scheduler_job.py:182} INFO - Started process (PID=20003) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:32:11,373] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 10:32:11,374] {logging_mixin.py:104} INFO - [2021-02-15 10:32:11,373] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:32:11,600] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:32:11,627] {logging_mixin.py:104} INFO - [2021-02-15 10:32:11,627] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 10:32:11,633] {logging_mixin.py:104} INFO - [2021-02-15 10:32:11,633] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 10:32:11,637] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.264 seconds
+[2021-02-15 10:33:06,222] {scheduler_job.py:182} INFO - Started process (PID=20063) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:33:06,223] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 10:33:06,223] {logging_mixin.py:104} INFO - [2021-02-15 10:33:06,223] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:33:06,462] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:33:06,489] {logging_mixin.py:104} INFO - [2021-02-15 10:33:06,488] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 10:33:06,494] {logging_mixin.py:104} INFO - [2021-02-15 10:33:06,494] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 10:33:06,498] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.276 seconds
+[2021-02-15 10:34:01,501] {scheduler_job.py:182} INFO - Started process (PID=20122) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:34:01,501] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 10:34:01,502] {logging_mixin.py:104} INFO - [2021-02-15 10:34:01,502] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:34:01,731] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:34:01,757] {logging_mixin.py:104} INFO - [2021-02-15 10:34:01,757] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 10:34:01,762] {logging_mixin.py:104} INFO - [2021-02-15 10:34:01,762] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 10:34:01,771] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.271 seconds
+[2021-02-15 10:34:57,344] {scheduler_job.py:182} INFO - Started process (PID=20181) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:34:57,344] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 10:34:57,345] {logging_mixin.py:104} INFO - [2021-02-15 10:34:57,345] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:34:57,563] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:34:57,590] {logging_mixin.py:104} INFO - [2021-02-15 10:34:57,589] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 10:34:57,596] {logging_mixin.py:104} INFO - [2021-02-15 10:34:57,596] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15 00:00:00+00:00
+[2021-02-15 10:34:57,599] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.256 seconds
+[2021-02-15 10:35:51,849] {scheduler_job.py:182} INFO - Started process (PID=20238) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:35:51,850] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 10:35:51,850] {logging_mixin.py:104} INFO - [2021-02-15 10:35:51,850] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:35:52,096] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:35:52,128] {logging_mixin.py:104} INFO - [2021-02-15 10:35:52,128] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 10:35:52,138] {logging_mixin.py:104} INFO - [2021-02-15 10:35:52,137] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-14T01:00:00+00:00
+[2021-02-15 10:35:52,148] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.300 seconds
+[2021-02-15 10:38:27,093] {scheduler_job.py:182} INFO - Started process (PID=20488) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:38:27,093] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 10:38:27,093] {logging_mixin.py:104} INFO - [2021-02-15 10:38:27,093] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:38:27,312] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:38:27,338] {logging_mixin.py:104} INFO - [2021-02-15 10:38:27,338] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 10:38:27,346] {logging_mixin.py:104} INFO - [2021-02-15 10:38:27,346] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15T03:00:00+00:00
+[2021-02-15 10:38:27,350] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.258 seconds
+[2021-02-15 10:40:28,386] {scheduler_job.py:182} INFO - Started process (PID=20680) to work on /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:40:28,386] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/airflow/dags/ndbc_dag.py for tasks to queue
+[2021-02-15 10:40:28,387] {logging_mixin.py:104} INFO - [2021-02-15 10:40:28,386] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:40:28,617] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['NDBC_51001']) retrieved from /Users/chrisholloway/airflow/dags/ndbc_dag.py
+[2021-02-15 10:40:28,644] {logging_mixin.py:104} INFO - [2021-02-15 10:40:28,644] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 10:40:28,653] {logging_mixin.py:104} INFO - [2021-02-15 10:40:28,653] {dag.py:2273} INFO - Setting next_dagrun for NDBC_51001 to 2021-02-15T20:00:00+00:00
+[2021-02-15 10:40:28,657] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/airflow/dags/ndbc_dag.py took 0.272 seconds

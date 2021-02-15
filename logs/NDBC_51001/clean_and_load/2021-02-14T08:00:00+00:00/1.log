@@ -1,0 +1,27 @@
+[2021-02-15 10:36:42,914] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: NDBC_51001.clean_and_load 2021-02-14T08:00:00+00:00 [queued]>
+[2021-02-15 10:36:42,919] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: NDBC_51001.clean_and_load 2021-02-14T08:00:00+00:00 [queued]>
+[2021-02-15 10:36:42,919] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-02-15 10:36:42,919] {taskinstance.py:1043} INFO - Starting attempt 1 of 1
+[2021-02-15 10:36:42,919] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-02-15 10:36:42,924] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): clean_and_load> on 2021-02-14T08:00:00+00:00
+[2021-02-15 10:36:42,926] {standard_task_runner.py:52} INFO - Started process 20320 to run task
+[2021-02-15 10:36:42,933] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'NDBC_51001', 'clean_and_load', '2021-02-14T08:00:00+00:00', '--job-id', '56', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/ndbc_dag.py', '--cfg-path', '/var/folders/y8/ykx6qdr96dldyw_z287s5l580000gn/T/tmpeh1gmxfk', '--error-file', '/var/folders/y8/ykx6qdr96dldyw_z287s5l580000gn/T/tmpfw2e89md']
+[2021-02-15 10:36:42,935] {standard_task_runner.py:77} INFO - Job 56: Subtask clean_and_load
+[2021-02-15 10:36:42,966] {logging_mixin.py:104} INFO - Running <TaskInstance: NDBC_51001.clean_and_load 2021-02-14T08:00:00+00:00 [running]> on host chriss-mbp.lan1
+[2021-02-15 10:36:42,991] {taskinstance.py:1255} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=holloway.christopher.t@gmail.com
+AIRFLOW_CTX_DAG_OWNER=chris
+AIRFLOW_CTX_DAG_ID=NDBC_51001
+AIRFLOW_CTX_TASK_ID=clean_and_load
+AIRFLOW_CTX_EXECUTION_DATE=2021-02-14T08:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-02-14T08:00:00+00:00
+[2021-02-15 10:36:43,339] {base.py:65} INFO - Using connection to: id: NDBC_51001. Host: localhost, Port: 5400, Schema: NDBC_51001DB, Login: chrisholloway, Password: None, extra: None
+[2021-02-15 10:36:43,345] {dbapi.py:180} INFO - Running statement: INSERT INTO Detailed_Wave_Data_Table (significant_wave_height, swell_height, swell_period,
+	 wind_wave_height, wind_wave_period, average_period) VALUES (%s, %s, %s, %s, %s, %s);, parameters: (2.5, 2.5, 11.4, 0.3, 4.0, 8.8)
+[2021-02-15 10:36:43,347] {dbapi.py:186} INFO - Rows affected: 1
+[2021-02-15 10:36:43,349] {python.py:118} INFO - Done. Returned value was: None
+[2021-02-15 10:36:43,353] {taskinstance.py:1159} INFO - Marking task as SUCCESS. dag_id=NDBC_51001, task_id=clean_and_load, execution_date=20210214T080000, start_date=20210215T203642, end_date=20210215T203643
+[2021-02-15 10:36:43,363] {taskinstance.py:1220} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-02-15 10:36:43,407] {local_task_job.py:146} INFO - Task exited with return code 0
