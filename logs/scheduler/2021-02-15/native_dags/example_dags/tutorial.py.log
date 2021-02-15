@@ -2476,3 +2476,227 @@
 [2021-02-15 08:41:24,656] {logging_mixin.py:104} INFO - [2021-02-15 08:41:24,656] {dag.py:1818} INFO - Sync 1 DAGs
 [2021-02-15 08:41:24,662] {logging_mixin.py:104} INFO - [2021-02-15 08:41:24,662] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-02-13 00:00:00+00:00
 [2021-02-15 08:41:24,667] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.043 seconds
+[2021-02-15 08:42:18,785] {scheduler_job.py:182} INFO - Started process (PID=12873) to work on /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 08:42:18,785] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-02-15 08:42:18,785] {logging_mixin.py:104} INFO - [2021-02-15 08:42:18,785] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 08:42:18,791] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 08:42:18,820] {logging_mixin.py:104} INFO - [2021-02-15 08:42:18,820] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 08:42:18,826] {logging_mixin.py:104} INFO - [2021-02-15 08:42:18,826] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-02-13 00:00:00+00:00
+[2021-02-15 08:42:18,830] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.046 seconds
+[2021-02-15 08:43:12,973] {scheduler_job.py:182} INFO - Started process (PID=12930) to work on /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 08:43:12,974] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-02-15 08:43:12,974] {logging_mixin.py:104} INFO - [2021-02-15 08:43:12,974] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 08:43:12,979] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 08:43:13,009] {logging_mixin.py:104} INFO - [2021-02-15 08:43:13,009] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 08:43:13,017] {logging_mixin.py:104} INFO - [2021-02-15 08:43:13,016] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-02-13 00:00:00+00:00
+[2021-02-15 08:43:13,027] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.054 seconds
+[2021-02-15 08:44:08,657] {scheduler_job.py:182} INFO - Started process (PID=12997) to work on /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 08:44:08,657] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-02-15 08:44:08,658] {logging_mixin.py:104} INFO - [2021-02-15 08:44:08,658] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 08:44:08,662] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 08:44:08,689] {logging_mixin.py:104} INFO - [2021-02-15 08:44:08,689] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 08:44:08,695] {logging_mixin.py:104} INFO - [2021-02-15 08:44:08,695] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-02-13 00:00:00+00:00
+[2021-02-15 08:44:08,699] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.043 seconds
+[2021-02-15 08:45:03,698] {scheduler_job.py:182} INFO - Started process (PID=13058) to work on /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 08:45:03,699] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-02-15 08:45:03,699] {logging_mixin.py:104} INFO - [2021-02-15 08:45:03,699] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 08:45:03,704] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 08:45:03,729] {logging_mixin.py:104} INFO - [2021-02-15 08:45:03,729] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 08:45:03,735] {logging_mixin.py:104} INFO - [2021-02-15 08:45:03,735] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-02-13 00:00:00+00:00
+[2021-02-15 08:45:03,741] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.044 seconds
+[2021-02-15 08:45:58,685] {scheduler_job.py:182} INFO - Started process (PID=13115) to work on /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 08:45:58,686] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-02-15 08:45:58,686] {logging_mixin.py:104} INFO - [2021-02-15 08:45:58,686] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 08:45:58,691] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 08:45:58,717] {logging_mixin.py:104} INFO - [2021-02-15 08:45:58,717] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 08:45:58,724] {logging_mixin.py:104} INFO - [2021-02-15 08:45:58,724] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-02-13 00:00:00+00:00
+[2021-02-15 08:45:58,729] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.045 seconds
+[2021-02-15 08:46:55,696] {scheduler_job.py:182} INFO - Started process (PID=13176) to work on /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 08:46:55,697] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-02-15 08:46:55,697] {logging_mixin.py:104} INFO - [2021-02-15 08:46:55,697] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 08:46:55,702] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 08:46:55,731] {logging_mixin.py:104} INFO - [2021-02-15 08:46:55,731] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 08:46:55,738] {logging_mixin.py:104} INFO - [2021-02-15 08:46:55,738] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-02-13 00:00:00+00:00
+[2021-02-15 08:46:55,749] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.053 seconds
+[2021-02-15 08:47:50,887] {scheduler_job.py:182} INFO - Started process (PID=13239) to work on /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 08:47:50,888] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-02-15 08:47:50,888] {logging_mixin.py:104} INFO - [2021-02-15 08:47:50,888] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 08:47:50,893] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 08:47:50,919] {logging_mixin.py:104} INFO - [2021-02-15 08:47:50,919] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 08:47:50,925] {logging_mixin.py:104} INFO - [2021-02-15 08:47:50,925] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-02-13 00:00:00+00:00
+[2021-02-15 08:47:50,929] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.042 seconds
+[2021-02-15 08:48:45,679] {scheduler_job.py:182} INFO - Started process (PID=13309) to work on /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 08:48:45,679] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-02-15 08:48:45,679] {logging_mixin.py:104} INFO - [2021-02-15 08:48:45,679] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 08:48:45,685] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 08:48:45,714] {logging_mixin.py:104} INFO - [2021-02-15 08:48:45,713] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 08:48:45,720] {logging_mixin.py:104} INFO - [2021-02-15 08:48:45,720] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-02-13 00:00:00+00:00
+[2021-02-15 08:48:45,725] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.047 seconds
+[2021-02-15 08:49:40,647] {scheduler_job.py:182} INFO - Started process (PID=13383) to work on /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 08:49:40,647] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-02-15 08:49:40,648] {logging_mixin.py:104} INFO - [2021-02-15 08:49:40,648] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 08:49:40,653] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 08:49:40,684] {logging_mixin.py:104} INFO - [2021-02-15 08:49:40,683] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 08:49:40,690] {logging_mixin.py:104} INFO - [2021-02-15 08:49:40,690] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-02-13 00:00:00+00:00
+[2021-02-15 08:49:40,697] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.050 seconds
+[2021-02-15 08:50:34,174] {scheduler_job.py:182} INFO - Started process (PID=13439) to work on /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 08:50:34,174] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-02-15 08:50:34,174] {logging_mixin.py:104} INFO - [2021-02-15 08:50:34,174] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 08:50:34,180] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 08:50:34,211] {logging_mixin.py:104} INFO - [2021-02-15 08:50:34,211] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 08:50:34,219] {logging_mixin.py:104} INFO - [2021-02-15 08:50:34,219] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-02-13 00:00:00+00:00
+[2021-02-15 08:50:34,225] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.052 seconds
+[2021-02-15 08:51:28,971] {scheduler_job.py:182} INFO - Started process (PID=13498) to work on /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 08:51:28,971] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-02-15 08:51:28,972] {logging_mixin.py:104} INFO - [2021-02-15 08:51:28,971] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 08:51:28,977] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 08:51:29,006] {logging_mixin.py:104} INFO - [2021-02-15 08:51:29,006] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 08:51:29,013] {logging_mixin.py:104} INFO - [2021-02-15 08:51:29,013] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-02-13 00:00:00+00:00
+[2021-02-15 08:51:29,022] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.051 seconds
+[2021-02-15 08:52:24,116] {scheduler_job.py:182} INFO - Started process (PID=13555) to work on /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 08:52:24,117] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-02-15 08:52:24,117] {logging_mixin.py:104} INFO - [2021-02-15 08:52:24,117] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 08:52:24,122] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 08:52:24,147] {logging_mixin.py:104} INFO - [2021-02-15 08:52:24,147] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 08:52:24,153] {logging_mixin.py:104} INFO - [2021-02-15 08:52:24,153] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-02-13 00:00:00+00:00
+[2021-02-15 08:52:24,158] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.042 seconds
+[2021-02-15 08:53:19,606] {scheduler_job.py:182} INFO - Started process (PID=13611) to work on /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 08:53:19,607] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-02-15 08:53:19,607] {logging_mixin.py:104} INFO - [2021-02-15 08:53:19,607] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 08:53:19,612] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 08:53:19,640] {logging_mixin.py:104} INFO - [2021-02-15 08:53:19,640] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 08:53:19,646] {logging_mixin.py:104} INFO - [2021-02-15 08:53:19,646] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-02-13 00:00:00+00:00
+[2021-02-15 08:53:19,656] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.050 seconds
+[2021-02-15 08:54:14,336] {scheduler_job.py:182} INFO - Started process (PID=13671) to work on /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 08:54:14,337] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-02-15 08:54:14,337] {logging_mixin.py:104} INFO - [2021-02-15 08:54:14,337] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 08:54:14,342] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 08:54:14,370] {logging_mixin.py:104} INFO - [2021-02-15 08:54:14,370] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 08:54:14,376] {logging_mixin.py:104} INFO - [2021-02-15 08:54:14,376] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-02-13 00:00:00+00:00
+[2021-02-15 08:54:14,385] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.049 seconds
+[2021-02-15 08:55:09,763] {scheduler_job.py:182} INFO - Started process (PID=13726) to work on /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 08:55:09,764] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-02-15 08:55:09,764] {logging_mixin.py:104} INFO - [2021-02-15 08:55:09,764] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 08:55:09,769] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 08:55:09,798] {logging_mixin.py:104} INFO - [2021-02-15 08:55:09,798] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 08:55:09,804] {logging_mixin.py:104} INFO - [2021-02-15 08:55:09,804] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-02-13 00:00:00+00:00
+[2021-02-15 08:55:09,812] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.050 seconds
+[2021-02-15 08:56:05,165] {scheduler_job.py:182} INFO - Started process (PID=13785) to work on /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 08:56:05,165] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-02-15 08:56:05,166] {logging_mixin.py:104} INFO - [2021-02-15 08:56:05,166] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 08:56:05,170] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 08:56:05,197] {logging_mixin.py:104} INFO - [2021-02-15 08:56:05,197] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 08:56:05,203] {logging_mixin.py:104} INFO - [2021-02-15 08:56:05,203] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-02-13 00:00:00+00:00
+[2021-02-15 08:56:05,213] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.049 seconds
+[2021-02-15 08:57:00,385] {scheduler_job.py:182} INFO - Started process (PID=13846) to work on /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 08:57:00,386] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-02-15 08:57:00,386] {logging_mixin.py:104} INFO - [2021-02-15 08:57:00,386] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 08:57:00,392] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 08:57:00,419] {logging_mixin.py:104} INFO - [2021-02-15 08:57:00,419] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 08:57:00,426] {logging_mixin.py:104} INFO - [2021-02-15 08:57:00,425] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-02-13 00:00:00+00:00
+[2021-02-15 08:57:00,430] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.046 seconds
+[2021-02-15 08:57:55,312] {scheduler_job.py:182} INFO - Started process (PID=13902) to work on /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 08:57:55,312] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-02-15 08:57:55,312] {logging_mixin.py:104} INFO - [2021-02-15 08:57:55,312] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 08:57:55,321] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 08:57:55,348] {logging_mixin.py:104} INFO - [2021-02-15 08:57:55,348] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 08:57:55,355] {logging_mixin.py:104} INFO - [2021-02-15 08:57:55,355] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-02-13 00:00:00+00:00
+[2021-02-15 08:57:55,359] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.048 seconds
+[2021-02-15 08:58:50,828] {scheduler_job.py:182} INFO - Started process (PID=13958) to work on /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 08:58:50,829] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-02-15 08:58:50,829] {logging_mixin.py:104} INFO - [2021-02-15 08:58:50,829] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 08:58:50,834] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 08:58:50,864] {logging_mixin.py:104} INFO - [2021-02-15 08:58:50,864] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 08:58:50,870] {logging_mixin.py:104} INFO - [2021-02-15 08:58:50,870] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-02-13 00:00:00+00:00
+[2021-02-15 08:58:50,881] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.054 seconds
+[2021-02-15 08:59:45,121] {scheduler_job.py:182} INFO - Started process (PID=14016) to work on /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 08:59:45,122] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-02-15 08:59:45,122] {logging_mixin.py:104} INFO - [2021-02-15 08:59:45,122] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 08:59:45,128] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 08:59:45,157] {logging_mixin.py:104} INFO - [2021-02-15 08:59:45,157] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 08:59:45,163] {logging_mixin.py:104} INFO - [2021-02-15 08:59:45,163] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-02-13 00:00:00+00:00
+[2021-02-15 08:59:45,168] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.047 seconds
+[2021-02-15 09:00:38,360] {scheduler_job.py:182} INFO - Started process (PID=14070) to work on /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 09:00:38,361] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-02-15 09:00:38,361] {logging_mixin.py:104} INFO - [2021-02-15 09:00:38,361] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 09:00:38,366] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 09:00:38,393] {logging_mixin.py:104} INFO - [2021-02-15 09:00:38,393] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:00:38,399] {logging_mixin.py:104} INFO - [2021-02-15 09:00:38,399] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-02-13 00:00:00+00:00
+[2021-02-15 09:00:38,404] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.044 seconds
+[2021-02-15 09:01:33,869] {scheduler_job.py:182} INFO - Started process (PID=14130) to work on /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 09:01:33,869] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-02-15 09:01:33,870] {logging_mixin.py:104} INFO - [2021-02-15 09:01:33,870] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 09:01:33,875] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 09:01:33,901] {logging_mixin.py:104} INFO - [2021-02-15 09:01:33,901] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:01:33,907] {logging_mixin.py:104} INFO - [2021-02-15 09:01:33,907] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-02-13 00:00:00+00:00
+[2021-02-15 09:01:33,918] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.049 seconds
+[2021-02-15 09:02:28,937] {scheduler_job.py:182} INFO - Started process (PID=14188) to work on /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 09:02:28,938] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-02-15 09:02:28,938] {logging_mixin.py:104} INFO - [2021-02-15 09:02:28,938] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 09:02:28,944] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 09:02:28,972] {logging_mixin.py:104} INFO - [2021-02-15 09:02:28,972] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:02:28,978] {logging_mixin.py:104} INFO - [2021-02-15 09:02:28,978] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-02-13 00:00:00+00:00
+[2021-02-15 09:02:28,983] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.046 seconds
+[2021-02-15 09:03:24,660] {scheduler_job.py:182} INFO - Started process (PID=14245) to work on /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 09:03:24,660] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-02-15 09:03:24,661] {logging_mixin.py:104} INFO - [2021-02-15 09:03:24,661] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 09:03:24,666] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 09:03:24,692] {logging_mixin.py:104} INFO - [2021-02-15 09:03:24,692] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:03:24,698] {logging_mixin.py:104} INFO - [2021-02-15 09:03:24,698] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-02-13 00:00:00+00:00
+[2021-02-15 09:03:24,704] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.044 seconds
+[2021-02-15 09:04:18,719] {scheduler_job.py:182} INFO - Started process (PID=14301) to work on /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 09:04:18,720] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-02-15 09:04:18,721] {logging_mixin.py:104} INFO - [2021-02-15 09:04:18,721] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 09:04:18,726] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 09:04:18,754] {logging_mixin.py:104} INFO - [2021-02-15 09:04:18,754] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:04:18,761] {logging_mixin.py:104} INFO - [2021-02-15 09:04:18,761] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-02-13 00:00:00+00:00
+[2021-02-15 09:04:18,769] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.050 seconds
+[2021-02-15 09:05:13,257] {scheduler_job.py:182} INFO - Started process (PID=14356) to work on /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 09:05:13,257] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-02-15 09:05:13,258] {logging_mixin.py:104} INFO - [2021-02-15 09:05:13,257] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 09:05:13,262] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 09:05:13,290] {logging_mixin.py:104} INFO - [2021-02-15 09:05:13,290] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:05:13,296] {logging_mixin.py:104} INFO - [2021-02-15 09:05:13,296] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-02-13 00:00:00+00:00
+[2021-02-15 09:05:13,300] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.044 seconds
+[2021-02-15 09:06:05,603] {scheduler_job.py:182} INFO - Started process (PID=14411) to work on /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 09:06:05,604] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-02-15 09:06:05,604] {logging_mixin.py:104} INFO - [2021-02-15 09:06:05,604] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 09:06:05,609] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 09:06:05,634] {logging_mixin.py:104} INFO - [2021-02-15 09:06:05,634] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:06:05,640] {logging_mixin.py:104} INFO - [2021-02-15 09:06:05,640] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-02-13 00:00:00+00:00
+[2021-02-15 09:06:05,645] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.043 seconds
+[2021-02-15 09:07:01,475] {scheduler_job.py:182} INFO - Started process (PID=14471) to work on /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 09:07:01,476] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-02-15 09:07:01,476] {logging_mixin.py:104} INFO - [2021-02-15 09:07:01,476] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 09:07:01,482] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 09:07:01,512] {logging_mixin.py:104} INFO - [2021-02-15 09:07:01,511] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:07:01,518] {logging_mixin.py:104} INFO - [2021-02-15 09:07:01,518] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-02-13 00:00:00+00:00
+[2021-02-15 09:07:01,526] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.051 seconds
+[2021-02-15 09:07:56,585] {scheduler_job.py:182} INFO - Started process (PID=14526) to work on /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 09:07:56,586] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-02-15 09:07:56,586] {logging_mixin.py:104} INFO - [2021-02-15 09:07:56,586] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 09:07:56,591] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 09:07:56,618] {logging_mixin.py:104} INFO - [2021-02-15 09:07:56,618] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:07:56,624] {logging_mixin.py:104} INFO - [2021-02-15 09:07:56,624] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-02-13 00:00:00+00:00
+[2021-02-15 09:07:56,629] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.044 seconds
+[2021-02-15 09:08:51,509] {scheduler_job.py:182} INFO - Started process (PID=14583) to work on /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 09:08:51,509] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-02-15 09:08:51,510] {logging_mixin.py:104} INFO - [2021-02-15 09:08:51,510] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 09:08:51,515] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 09:08:51,541] {logging_mixin.py:104} INFO - [2021-02-15 09:08:51,541] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:08:51,547] {logging_mixin.py:104} INFO - [2021-02-15 09:08:51,547] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-02-13 00:00:00+00:00
+[2021-02-15 09:08:51,556] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.048 seconds
+[2021-02-15 09:09:44,835] {scheduler_job.py:182} INFO - Started process (PID=14643) to work on /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 09:09:44,836] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-02-15 09:09:44,836] {logging_mixin.py:104} INFO - [2021-02-15 09:09:44,836] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 09:09:44,841] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 09:09:44,868] {logging_mixin.py:104} INFO - [2021-02-15 09:09:44,868] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:09:44,876] {logging_mixin.py:104} INFO - [2021-02-15 09:09:44,875] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-02-13 00:00:00+00:00
+[2021-02-15 09:09:44,880] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.046 seconds
+[2021-02-15 09:10:38,447] {scheduler_job.py:182} INFO - Started process (PID=14698) to work on /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 09:10:38,447] {scheduler_job.py:629} INFO - Processing file /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-02-15 09:10:38,448] {logging_mixin.py:104} INFO - [2021-02-15 09:10:38,448] {dagbag.py:448} INFO - Filling up the DagBag from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 09:10:38,453] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 09:10:38,481] {logging_mixin.py:104} INFO - [2021-02-15 09:10:38,481] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-15 09:10:38,487] {logging_mixin.py:104} INFO - [2021-02-15 09:10:38,487] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-02-13 00:00:00+00:00
+[2021-02-15 09:10:38,492] {scheduler_job.py:190} INFO - Processing /Users/chrisholloway/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.046 seconds

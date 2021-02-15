@@ -12,6 +12,9 @@ from airflow.hooks.postgres_hook import PostgresHook
 data_path = 'https://www.ndbc.noaa.gov/data/realtime2/51001.spec'
 
 def check_for_file():
+	""" Function to check if the data exists. Sometimes the buoys
+	go offline, and do not report realtime data and no file us uploaded."""
+	
 	request = requests.head(data_path)
 	if request.status_code == 200:
 	     print('file exists')
@@ -20,15 +23,31 @@ def check_for_file():
 	return "OK"
 
 def clean_load_data():
-	missing_values = ["MM"]
-	df = pd.read_csv(data_path,
+	""" Function to Extract the data into a Pandas dataframe, transform and
+	and load into an existing Postgresql database."""
+
+#Connect to database using the conn_id given defined in the Airflow Webserver
+
+	pg_hook = PostgresHook(postgres_conn_id='NDBC_51001')
+
+#NDBC documentation notes that missing values are expressed as "MM"	
+
+	missing_values = ["MM"] 
+
+#Extract the detailed wave summary data into a Pandas dataframe
+
+	df = pd.read_csv(data_path, 
 		sep = '\s+',
 		parse_dates = True,
 		skiprows = [1],
 		na_values = missing_values)
-	#df["DATE"] = df["#YY"].astype(str)+'/'+df["MM"].astype(str)+'/'+df["DD"].astype(str)+'/'+df["hh"].astype(str)+'/'+df["mm"].astype(str)
-	pg_hook = PostgresHook(postgres_conn_id='NDBC_51001')
 	
+#Create a new column to simplify the sample date data
+
+	#df["DATE"] = df["#YY"].astype(str)+'/'+df["MM"].astype(str)+'/'+df["DD"].astype(str)+'/'+df["hh"].astype(str)+'/'+df["mm"].astype(str)
+
+#Create variables to input into the existing database
+
 	#sample_date = df["DATE"] 
 	significant_wave_height = df["WVHT"][0]
 	swell_height = df["SwH"][0]
@@ -41,14 +60,21 @@ def clean_load_data():
 	average_period = df["APD"][0]
 	#dominant_period_wave_direction = ["MWD"]
 
+#Create a tuple for the data field values
+
 	row = (significant_wave_height, swell_height, swell_period,
 	 wind_wave_height, wind_wave_period, average_period)
+
+#Create a sql command to load the data into the exisiting table
 
 	insert_cmd = """INSERT INTO Detailed_Wave_Data_Table (significant_wave_height, swell_height, swell_period,
 	 wind_wave_height, wind_wave_period, average_period) VALUES (%s, %s, %s, %s, %s, %s);"""
 
+#Insert the data into the database
+
 	pg_hook.run(insert_cmd, parameters=row)
 
+#Define the default parameters for the Airflow Dag
 DEFAULT_ARGS = {
     'owner': 'chris',
     'depends_on_past': False,
@@ -57,6 +83,9 @@ DEFAULT_ARGS = {
     'email_on_failure': False,
     'email_on_retry': False 
 }
+
+#Define the dag, and its associated tasks
+
 with DAG(
 	dag_id ='NDBC_51001',
 	default_args = DEFAULT_ARGS,
